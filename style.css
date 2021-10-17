@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    padding: 25px;
+    margin: 0px;
+  }
+
+  body {
+  background-color:#ECECEC;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menuContainer {
+    display: flex;
+    /* background-color: aquamarine; */
+    height:30px;
+  align-items:center;
+justify-content: space-between;
+  }
+.inset{
+  margin-left: 00px;
+  margin-right: 0px
+
+
+
+
+}
+  .herosection{
+
+display: flex;
+/* background-color: crimson; */
+justify-content: center;
+/* margin-top: 10px;
+margin-left: 110px; */
+align-items:flex-start;
+height:260px;
+}
+
+  .projmenuContainer{
+  display: flex;
+  height:430px;
+/* background-color: beige; */
+  flex-direction: column;
+  align-items:flex-end;
+justify-content:end;
+  }
+
+  .projmenubutton{
+ /* background-color:rgb(0, 236, 126); */
+line-height:38px;
+font-size: 18px;
+color:rgba(56, 56, 56, 0.185);
+
+  }
+  .morebutton{
+    line-height:80px;
+    font-size: 18px;
+    color:rgba(56, 56, 56, 0.185);
+
+  }
+
+   /* span {line-height: 20px; font-size: 14px; display: block; } */
+    span:hover {
+      
+      color:rgb(0, 0, 0);
+
+      font-size: 20px;
+    
+    }
+
+    .circularContainer{
+
+position:relative;
+width:100%;
+max-width: 32rem;
+
+    }
+
+        .centercircle{
+
+      position:absolute;
+      top:-20rem;
+      left:17.5rem;
+width:21rem;
+height:21rem;
+background-color: #ECECEC;
+border-radius: 9999px;
+    } 
+
+    .topcircle{
+
+      position:absolute;
+top:-22rem;
+left:18rem;
+width:20rem;
+height:20rem;
+background-color: #ccd9ff;
+border-radius: 9999px;
+
+mix-blend-mode: multiply;
+
+    } 
+
+    .leftcircle{
+
+      position:absolute;
+top:-19rem;
+right:-4rem;
+width:20rem;
+height:20rem;
+background-color: #fad1d1;
+border-radius: 9999px;
+
+mix-blend-mode: multiply;
+
+    }
+    .rightcircle{
+
+      position:absolute;
+      top:-19rem;
+left:20rem;
+width:20rem;
+height:20rem;
+background-color: #ffebaa;
+border-radius: 9999px;
+
+mix-blend-mode: multiply;
+
+    }
+   
